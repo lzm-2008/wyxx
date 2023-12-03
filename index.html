@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>欢迎</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            border-color: black;
+        }
+        body{
+            display: flex;
+            background: linear-gradient(135deg, #84c1eb, #bebebe, #cc4e9c);background-attachment: fixed;
+            justify-content: center;
+            
+            min-width: 100vh;
+        }
+        .flex{display: flex;}
+        .column{flex-direction: column;}
+        .waikuang{
+            background-color: rgb(100, 100, 100);
+            width: 300px;
+            height: 400px;
+            justify-content: center;
+            border-radius: 8px;
+        }
+        .neikuang{
+            text-align: center;
+            line-height: 2;
+            margin-top: 2px;
+            
+        }
+        .bei{
+            background-color: antiquewhite;margin-top: 10px;margin-left: 10px;margin-right: 10px;
+            color: rgb(0, 0, 0);border-radius: 8px;
+        }
+        .txk{
+            width: 80px;
+            text-align: center;
+            margin-left: 35%;
+        }
+    </style>
+</head>
+<body>
+    <div class="waikuang flex column">
+        <div class="txk flex column">
+            <img src="https://media.st.dl.eccdnx.com/steamcommunity/public/images/items/1629910/045c57ebb6946fdf7e57a53d5768117dd8543862.gif"><p>Lu</p>
+        </div>
+        <h2 style="text-align: center;color: rgb(255, 5, 5);">欢迎您！</h2>
+        <div class="neikuang flex column">
+            <a href="#" class="bei">For Android/ios</a><a href="#" class="bei">For Windows</a>
+        </div>
+    </div>
+</body>
+</html>
